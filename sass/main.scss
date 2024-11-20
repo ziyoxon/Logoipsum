@@ -1,0 +1,12 @@
+@import "variable";
+@import "global";
+@import "mixin";
+
+// component
+@import "header";
+@import "section";
+
+
+.btn2{
+    @include btn($bg-py)
+}

@@ -1,0 +1,32 @@
+@mixin btn($bg: $bg-sy){
+    background: $bg;
+    padding: 19px 60px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    &:hover{
+        opacity: .7;
+        cursor: pointer;
+    }
+}
+
+@mixin df(){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin btn2($bg: $bg-py){
+    background: $bg;
+    padding: 19px 60px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: capitalize;
+    &:hover{
+        opacity: .7;
+        cursor: pointer;
+    }
+}
+
